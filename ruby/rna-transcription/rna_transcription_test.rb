@@ -1,4 +1,5 @@
 require 'minitest/autorun'
+require 'minitest/pride'
 require_relative 'rna_transcription'
 
 # Common test data version: 1.0.1 cb1fd3a
