@@ -1,2 +1,2 @@
 # exercisms
-Exercism.io exercises
+[Exercism.io](http://exercism.io/) exercises
