@@ -12,6 +12,7 @@ class Sieve
     @bools = Array.new(max + 1) { true }.tap { |a| a[0] = a[1] = nil }
   end
 
+  # Note to self: ruby includes this in stdlib
   # def primes
   #   Prime::EratosthenesGenerator.new.take_while { |i| i <= max }
   # end
