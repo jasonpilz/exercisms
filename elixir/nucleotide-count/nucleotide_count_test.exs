@@ -2,13 +2,12 @@ if !System.get_env("EXERCISM_TEST_EXAMPLES") do
   Code.load_file("nucleotide_count.exs", __DIR__)
 end
 
-ExUnit.start
+ExUnit.start()
 ExUnit.configure exclude: :pending, trace: true
 
 defmodule NucleotideCountTest do
   use ExUnit.Case
 
-  # @tag :pending
   test "empty dna string has no adenosine" do
     assert NucleotideCount.count('', ?A) == 0
   end
